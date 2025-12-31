@@ -1,0 +1,140 @@
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.course-row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col {
+    flex-basis: 45%;
+    background: #fff3f3;
+    border-radius: 7px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.course-col:hover {
+    box-shadow: 0 0 20px rgba(10, 0, 0, 0.2);
+}
+
+.course {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.course h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 50px;
+}
+
+.course-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.course-col {
+    flex: 1;
+    background: #fff3f3;
+    border-radius: 10px;
+    padding: 30px 25px;
+    transition: 0.3s;
+}
+
+.course-col h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.course-col p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Hover effect (optional) */
+.course-col:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+@media (max-width: 1024px) {
+    .course {
+        padding: 60px 0;
+    }
+
+    .course h1 {
+        font-size: 30px;
+    }
+
+    .course p {
+        font-size: 14px;
+    }
+
+    .course-col {
+        padding: 25px 20px;
+    }
+
+    .course-col h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .course-row {
+        flex-direction: column;
+    }
+
+    .course h1 {
+        font-size: 26px;
+    }
+
+    .course p {
+        font-size: 13px;
+    }
+
+    .course-col {
+        padding: 22px 18px;
+    }
+
+    .course-col h3 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px) {
+    .course h1 {
+        font-size: 22px;
+    }
+
+    .course-col p {
+        font-size: 13px;
+    }
+}

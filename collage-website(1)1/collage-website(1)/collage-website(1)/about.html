@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institute Website Design</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="about.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <!-- <li><a href="">HOME</a></li> -->
+                    <!-- <li><a href="">ABOUT</a></li> -->
+                    <!-- <li><a href="">COURSE</a></li> -->
+                    <!-- <li><a href="">BLOG</a></li> -->
+                    <!-- <li><a href="">CONTACT</a></li> -->
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog(2).html">BLOG</a></li>
+                    <li><a href="1contact.html">CONTACT</a></li>
+                </ul>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- About Us content -->
+    <section class="About-Us">
+        <div class="About-row">
+            <div class="about-col">
+                <h1>We are Bangladesh's most unique and premium educational institute.</h1>
+                <p>We are Bangladesh’s most unique and premium educational institute.
+                    We shape future leaders through knowledge and practical learning.
+                    Innovation, creativity, and real-world skills are at our core.
+                    We create opportunities, challenges, and pathways to success.
+                    Here begins your future — confident, capable, and ready to lead.</p>
+
+                <a href="" class="hero-btn red-btn">EXPLOPE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="eduford_img/eduford_img/14.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!------ Footer ------>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>FCI is a leading educational institution dedicated to providing quality IT and computer science education.
+            <br>
+            We offer modern courses, skilled faculty, and advanced learning facilities. <br>
+            Our mission is to equip students with the knowledge and skills for a successful future.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/official.fci.gov.bd/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <a href="https://www.linkedin.com/company/fci-bd/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by Easy Tutorils</p>
+    </section>
+
+
+
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
